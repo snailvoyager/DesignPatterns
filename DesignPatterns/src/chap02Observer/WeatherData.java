@@ -31,7 +31,7 @@ public class WeatherData implements Subject{
 		// TODO Auto-generated method stub
 		for(int i=0; i<observers.size(); i++) {
 			Observer observer = observers.get(i);
-			observer.update(temper, humid, pressure);		//모든 Observer에게 알려준다
+			observer.update(temper, humid, pressure);		//모든 Observer에게 알려준다. push 방식
 		}
 	}
 	
