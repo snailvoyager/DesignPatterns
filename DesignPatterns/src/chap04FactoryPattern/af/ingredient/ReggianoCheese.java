@@ -1,4 +1,6 @@
-package chap04FactoryPattern.af;
+package chap04FactoryPattern.af.ingredient;
+
+import chap04FactoryPattern.af.ingredient.Cheese;
 
 public class ReggianoCheese implements Cheese {
 

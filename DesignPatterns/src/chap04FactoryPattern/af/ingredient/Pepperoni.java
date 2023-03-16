@@ -1,4 +1,4 @@
-package chap04FactoryPattern.af;
+package chap04FactoryPattern.af.ingredient;
 
 public interface Pepperoni {
 	public String toString();

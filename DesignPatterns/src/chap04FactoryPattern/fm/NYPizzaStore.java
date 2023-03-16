@@ -4,7 +4,7 @@ public class NYPizzaStore extends PizzaStore {
     @Override
     public Pizza createPizza(String type) {     //객체를 생성하는 factory method
         if (type.equals("cheese")) {
-            return new NYStyleCheesePizza();
+            return new NYStyleCheesePizza();    //구상 클래스에 의존하고 있음
         } else if (type.equals("veggie")) {
             return new NYStyleVeggiePizza();
         } else if (type.equals("clam")) {

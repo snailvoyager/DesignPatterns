@@ -1,5 +1,7 @@
 package chap04FactoryPattern.af;
 
+import chap04FactoryPattern.af.ingredient.*;
+
 public abstract class Pizza {
 	String name;
 

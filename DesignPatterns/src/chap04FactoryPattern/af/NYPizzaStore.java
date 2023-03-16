@@ -3,7 +3,7 @@ package chap04FactoryPattern.af;
 public class NYPizzaStore extends PizzaStore{
     @Override
     protected Pizza createPizza(String item) {
-        Pizza pizza = null;
+        Pizza pizza = null;     //Abstract Product
         PizzaIngredientFactory ingredientFactory = new NYPizzaIngredientFactory();  //뉴욕가게에는 뉴욕공장을 연결
 
         if(item.equals("cheese")) {

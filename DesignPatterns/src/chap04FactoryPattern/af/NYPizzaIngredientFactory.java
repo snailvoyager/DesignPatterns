@@ -1,5 +1,7 @@
 package chap04FactoryPattern.af;
 
+import chap04FactoryPattern.af.ingredient.*;
+
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory{        //각 지역에 맞는 원재료 생성
 
     public Dough createDough() {
