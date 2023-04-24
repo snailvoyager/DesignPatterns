@@ -11,4 +11,9 @@ public class LightOnCommand implements Command {    //커맨드 객체
     public void execute() {     //리시버의 특정 작업을 처리
         light.on();
     }
+
+    @Override
+    public void undo() {
+        light.off();
+    }
 }
