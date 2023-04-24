@@ -3,7 +3,9 @@ package chap06CommandPattern;
 public class Light {    //Receiver
     String location = "";
 
-    public Light() {}
+    public Light(String location) {
+        this.location = location;
+    }
 
     public void on() {
         System.out.println(location + " light is on");
