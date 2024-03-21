@@ -1,10 +1,9 @@
 package chap03DecoratorPattern;
 
 public class Mocha extends CondimentDecorator{		//구상 데코레이터
-	Beverage beverage;		//감싸고자하는 음료를 저장
-	
+
 	public Mocha(Beverage beverage) {
-		this.beverage = beverage;
+		super(beverage);
 	}
 	
 	public String getDescription() {
